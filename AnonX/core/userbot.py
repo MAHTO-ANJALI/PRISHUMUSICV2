@@ -48,8 +48,7 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("RBGOFFICIAL1")
-                await self.one.join_chat("DANGEROUS_FIGHTER_GROUP")
+                await self.one.join_chat("prishuxs")
             except:
                 pass
             assistants.append(1)
@@ -79,7 +78,7 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try
-                await self.one.join_chat("DANGEROUS_FIGHTER_GROUP")
+                await self.one.join_chat("prishuxs")
             except:
                 pass
             assistants.append(2)
@@ -110,7 +109,7 @@ class Userbot(Client):
             await self.three.start()
             try:
                 
-                await self.one.join_chat("DANGEROUS_FIGHTER_GROUP")
+                await self.one.join_chat("prishuxs")
             except:
                 pass
             assistants.append(3)
@@ -141,7 +140,7 @@ class Userbot(Client):
             await self.four.start()
             try:
                 
-                await self.one.join_chat("DANGEROUS_FIGHTER_GROUP")
+                await self.one.join_chat("prishuxs")
             except:
                 pass
             assistants.append(4)
