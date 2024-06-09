@@ -49,6 +49,8 @@ class Userbot(Client):
             await self.one.start()
             try:
                 await self.one.join_chat("prishuxs")
+                await self.one.join_chat("prishuxs")
+                await self.one.join_chat("prishuxs")
             except:
                 pass
             assistants.append(1)
@@ -79,6 +81,8 @@ class Userbot(Client):
             await self.two.start()
             try:
                 await self.one.join_chat("prishuxs")
+                await self.one.join_chat("prishuxs")
+                await self.one.join_chat("prishuxs")
             except:
                 pass
             assistants.append(2)
@@ -108,7 +112,8 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                
+                await self.one.join_chat("prishuxs")
+                await self.one.join_chat("prishuxs")
                 await self.one.join_chat("prishuxs")
             except:
                 pass
@@ -139,7 +144,8 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                
+                await self.one.join_chat("prishuxs")
+                await self.one.join_chat("prishuxs")
                 await self.one.join_chat("prishuxs")
             except:
                 pass
@@ -170,7 +176,8 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                
+                await self.one.join_chat("prishuxs")
+                await self.one.join_chat("prishuxs")
                 await self.one.join_chat("prishuxs")
             except:
                 pass
