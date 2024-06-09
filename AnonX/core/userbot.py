@@ -77,7 +77,7 @@ class Userbot(Client):
                 sys.exit()
         if config.STRING2:
             await self.two.start()
-            try
+            try:
                 await self.one.join_chat("prishuxs")
             except:
                 pass
